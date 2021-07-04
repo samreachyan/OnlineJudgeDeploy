@@ -53,10 +53,8 @@ services:
 
   oj-backend:
     # english
-    image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/oj_backend
-    # frontend luyencode
-    # image: luyencode/oj-backend
-    # image: samreachyan/oj-backend
+    # image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/oj_backend
+    image: samreachyan/oj-backend
     container_name: oj-backend
     restart: always
     depends_on:
