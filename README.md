@@ -33,7 +33,7 @@
     admin: root
     pass: rootroot
     ```
-    > If you using `Apache2` you need to stop `Apache2` server, try : `sudo sysctrl service stop apache2`
+    > If you using `Apache2` you need to stop `Apache2` server, try : `sudo systemctr service stop apache2`
 
 5. For special Command line by Bash Terminal
     ```
