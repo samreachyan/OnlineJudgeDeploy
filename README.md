@@ -6,13 +6,13 @@
 
     ```bash
     sudo apt-get update && sudo apt-get install -y vim python-pip curl git
-    pip install docker-compose
+    pip docker-compose
     ```
 
 2. install  Docker 
  
     ```
-    sudo curl -sSL get.docker.com | sh`
+    sudo curl -sSL get.docker.com | sh
    ``` 
     Read more about doc: [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
@@ -33,7 +33,7 @@
     admin: root
     pass: rootroot
     ```
-    > If you using `Apache2` you need to stop `Apache2` server, try : `sudo systemctr service stop apache2`
+    > If you using `Apache2` you need to stop `Apache2` server, try : `sudo systemctl service stop apache2`
 
 5. For special Command line by Bash Terminal
     ```
