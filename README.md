@@ -25,7 +25,7 @@
 4. Deploy in locally 
 
     ```
-    docker-compose up -d
+    sudo docker-compose up -d
     ```
     > If you cannot login to admin, try `sudo -E docker-compose up -d`
     Note: 
@@ -36,10 +36,6 @@
     > If you using `Apache2` you need to stop `Apache2` server, try : `sudo systemctl service stop apache2`
 
 5. For special Command line by Bash Terminal
-    ```
-    bash oj.sh
-    ```
-    if you're not super user:
     ```
     sudo bash oj.sh
     ```
@@ -53,7 +49,7 @@ And then installation, you just clone the project and start the docker compose. 
 
 1. See all container running
     ```
-    docker ps -a
+    sudo docker ps -a
     ```
 
 2. View on local environment
