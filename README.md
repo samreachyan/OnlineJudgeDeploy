@@ -13,6 +13,8 @@
  
     ```
     sudo curl -sSL get.docker.com | sh
+    
+    sudo apt-get install -y docker-compose
    ``` 
     Read more about doc: [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
@@ -64,4 +66,4 @@ And then installation, you just clone the project and start the docker compose. 
     see the ip address are working.
 ## Documents
 
-More documents: [http://docs.onlinejudge.me/](http://docs.onlinejudge.me/#/onlinejudge/faq)
+More documents: [http://opensource.qduoj.com/](http://opensource.qduoj.com/)
